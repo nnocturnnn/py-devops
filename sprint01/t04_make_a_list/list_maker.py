@@ -1,5 +1,8 @@
 
 
 def list_maker(string, delim):
-    return string.split(delim)
+    if delim:
+        return string.split(delim)
+    else:
+        return string.split()
 
