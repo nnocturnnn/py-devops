@@ -25,5 +25,3 @@ def print_str_analytics(string):
 | Number of whitespace characters is: {isspace}
 |------------------------------------------------|
              """)
-
-print_str_analytics("We are three wise men!")
