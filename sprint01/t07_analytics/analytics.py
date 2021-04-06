@@ -1,6 +1,5 @@
 
 
-
 def print_str_analytics(string):
     isspace = isupper = islower = isdecim = isalpha = isalphanum = isprint = 0
     for i in string:
