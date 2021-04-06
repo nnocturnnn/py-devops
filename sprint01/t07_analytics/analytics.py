@@ -13,7 +13,7 @@ def print_str_analytics(string):
     print(f"""|------------------------------------------------|
 |                String analytics                |
 |------------------------------------------------|
-| '{string}'                       
+| '{string}'
 |------------------------------------------------|
 | Number of printable characters is: {isprint}
 | Number of alphanumeric characters is: {isalphanum}
