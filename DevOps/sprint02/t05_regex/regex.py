@@ -1,7 +1,5 @@
 import re
 
-
-
 def check_address(arg_dict):
     tpl = r'^Ukraine,[ ]*[A-Za-z-[ ]*]*,[ ]*[A-Za-z-[ ]*]*[ ]*\d{1,6},[ ]*\d{5}$'
     r_list = []
