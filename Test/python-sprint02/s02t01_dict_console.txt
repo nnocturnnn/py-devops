@@ -1,0 +1,21 @@
+Searching for section "directions" in recipe "Salmon salad":
+Cut tomatoes. Mix all ingredients together.
+---
+Searching for section "ingredients" in recipe "Fried eggs":
+['eggs', 'salt', 'black pepper']
+---
+Searching for section "nutrition per serving" in recipe "Salmon salad":
+There is no section "nutrition per serving" in the "Salmon salad" recipe.
+---
+Searching for section "prep time" in recipe "Apple pie":
+There is no "Apple pie" recipe in the cookbook.
+---
+Searching for section "ingredients" in recipe "Tiramisu":
+There is no "Tiramisu" recipe in the cookbook.
+---
+Searching for section "('1', '0')" in recipe "15":
+ten
+---
+Searching for section "a" in recipe "7":
+There is no "7" recipe in the cookbook.
+---

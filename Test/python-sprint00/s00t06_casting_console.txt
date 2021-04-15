@@ -1,0 +1,13 @@
+>python3 cast.py
+Available variables:
+a = 3
+b = 10
+c = -14.8
+d = True
+
+Result:
+3 + 10 = 13.0
+-14.8 - 10 = -24
+-14.8 + 10 = -14.810
+3 - 3 = False
+>

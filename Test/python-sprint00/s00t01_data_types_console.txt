@@ -1,0 +1,6 @@
+>python3 data_types.py
+50
+-42.00001
+Monty Python
+True
+>

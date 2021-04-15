@@ -1,0 +1,23 @@
+>python3 s02t09_fibonacci_main.py
+The number under the index 20 is 6765
+***
+The number under the index 5 is 5
+***
+Fibonacci number for 0 is 0
+Fibonacci number for 1 is 1
+Fibonacci number for 2 is 1
+Fibonacci number for 3 is 2
+Fibonacci number for 4 is 3
+***
+Fibonacci number for 0 is 0
+Fibonacci number for 1 is 1
+Fibonacci number for 2 is 1
+Fibonacci number for 3 is 2
+Fibonacci number for 4 is 3
+Fibonacci number for 5 is 5
+Fibonacci number for 6 is 8
+Fibonacci number for 7 is 13
+Fibonacci number for 8 is 21
+Fibonacci number for 9 is 34
+***
+>

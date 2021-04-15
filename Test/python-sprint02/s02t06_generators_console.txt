@@ -1,0 +1,33 @@
+>python3 s02t06_generators_main.py
+***Passed parameter - 3***
+27
+8
+1
+***
+***Passed parameter - 8***
+512
+343
+216
+125
+64
+27
+8
+1
+***
+***Passed parameter - 10***
+1000
+729
+512
+343
+216
+125
+64
+27
+8
+1
+***
+***Passed parameter - 0***
+***
+***Passed parameter - -5***
+***
+>

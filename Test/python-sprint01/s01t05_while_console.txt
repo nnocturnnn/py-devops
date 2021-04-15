@@ -1,0 +1,42 @@
+>python3 s01t05_while_main.py
+* Bookshelf. Updated: False *
+To Kill a Mockingbird
+Little Women
+1984
+---
+Sense and Sensibility
+---
+Lord of the Flies
+***
+
+* Bookshelf. Updated: True *
+To Kill a Mockingbird
+Little Women
+1984
+The Stranger
+Sense and Sensibility
+---
+Lord of the Flies
+***
+
+* Bookshelf. Updated: True *
+To Kill a Mockingbird
+Little Women
+1984
+The Stranger
+Sense and Sensibility
+Dracula
+Lord of the Flies
+***
+
+* Bookshelf. Updated: False *
+To Kill a Mockingbird
+Little Women
+1984
+The Stranger
+Sense and Sensibility
+Dracula
+Lord of the Flies
+***
+
+>

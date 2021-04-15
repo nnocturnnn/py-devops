@@ -1,0 +1,11 @@
+>python3 s02t04_unique_main.py
+-----Before-----
+{'city': ['Kharkiv', 'Kyiv', 'Lviv', 'Dnipro', 'Kyiv', 'Kyiv', 'Kharkiv', 'Kharkiv', 'Lviv'], 'age': [16, 16, 17, 18, 19, 19, 19, 18, 20]}
+-----After-----
+{'city': ['Dnipro', 'Kharkiv', 'Kyiv', 'Lviv'], 'age': [16, 17, 18, 19, 20]}
+***
+-----Before-----
+{'hobby': ['drawing', 'basketball', 'drawing', 'drawing', 'basketball', 'dancing', 'dancing', 'dancing', 'dancing'], 'format': ['individually', 'individually', 'group', 'individually', 'group', 'individually', 'group', 'group', 'group']}
+-----After-----
+{'hobby': ['basketball', 'dancing', 'drawing'], 'format': ['group', 'individually']}
+>

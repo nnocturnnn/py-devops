@@ -1,0 +1,83 @@
+>python3 s02t07_contacts_main.py
+___________add test___________
+{
+   ":1Y@x)t.o}Y": {
+      "name": "EqV8i",
+      "age": 69,
+      "height": 193,
+      "website": "8YtDt.com"
+   },
+   "hKc@4h\".rx^": {
+      "name": "8X2Y4",
+      "Lov": "Rbr"
+   },
+   ">Zb@I8Q.j2B": {
+      "name": "IKpi9",
+      "TLv": "JrG"
+   },
+   "j`5@HEK.hMM": {
+      "name": "ez0LH",
+      "website": "XnI3E.com"
+   },
+   "J^J@:|z.\t!2": {
+      "name": "qNCIE",
+      "website": "QC4vk.com",
+      "vVP": "nKC",
+      "height": 200
+   }
+}
+_________update test__________
+{
+   ":1Y@x)t.o}Y": {
+      "name": "V_O11",
+      "age": 54,
+      "height": 167,
+      "website": "8YtDt.com",
+      "JYq": "hDS"
+   },
+   "hKc@4h\".rx^": {
+      "name": "8X2Y4",
+      "Lov": "Rbr"
+   },
+   ">Zb@I8Q.j2B": {
+      "name": "Czppv",
+      "TLv": "JrG",
+      "age": 96
+   },
+   "j`5@HEK.hMM": {
+      "name": "ez0LH",
+      "website": "XnI3E.com"
+   },
+   "J^J@:|z.\t!2": {
+      "name": "na8sE",
+      "website": "QC4vk.com",
+      "vVP": "nKC",
+      "height": 161
+   }
+}
+_________delete test__________
+_______validation test________
+[False, False, False, False, False, False, True, False, False, True, False, False, False, False, False, True, False, True, True, True, False]
+{
+   ":1Y@x)t.o}Y": {
+      "name": "V_O11",
+      "age": 54,
+      "height": 167,
+      "website": "8YtDt.com",
+      "JYq": "hDS"
+   },
+   "hKc@4h\".rx^": {
+      "name": "8X2Y4",
+      "Lov": "Rbr"
+   },
+   "T{\r@s!E.d5Q": {
+      "name": "kRAiz",
+      "website": "zuY_8.com",
+      "SeI": "BnP",
+      "age": 9
+   },
+   "[$G@p\rZ.HZI": {
+      "name": "YKeq1"
+   }
+}
+>

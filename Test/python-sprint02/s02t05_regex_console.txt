@@ -1,0 +1,8 @@
+>python3 s02t05_regex_main.py
+The address of Dmitry Chaykin is invalid.
+The address of Andrey Myskin is valid.
+The address of Tatyana Tsareva is valid.
+The address of Zhanna Akopyan is invalid.
+The address of Viktor Vasilyev is invalid.
+The address of Andrey Sharov is invalid.
+>

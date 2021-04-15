@@ -1,0 +1,28 @@
+>python3 s01t07_analytics_main.py
+|------------------------------------------------|
+|                String analytics                |
+|------------------------------------------------|
+| 'We are three wise men!'
+|------------------------------------------------|
+| Number of printable characters is: 22
+| Number of alphanumeric characters is: 17
+| Number of alphabetic characters is: 17
+| Number of decimal characters is: 0
+| Number of lowercase letters is: 16
+| Number of uppercase letters is: 1
+| Number of whitespace characters is: 4
+|------------------------------------------------|
+|------------------------------------------------|
+|                String analytics                |
+|------------------------------------------------|
+| 'NI'
+|------------------------------------------------|
+| Number of printable characters is: 2
+| Number of alphanumeric characters is: 2
+| Number of alphabetic characters is: 2
+| Number of decimal characters is: 0
+| Number of lowercase letters is: 0
+| Number of uppercase letters is: 2
+| Number of whitespace characters is: 0
+|------------------------------------------------|
+>

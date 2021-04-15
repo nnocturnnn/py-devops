@@ -1,0 +1,79 @@
+
+_____________test - simple______________
+[start]
+verse1 line1
+verse1 line2
+** CHORUS line1
+** CHORUS line2
+verse2 line1
+verse2 line2
+verse2 line3
+** CHORUS line1
+** CHORUS line2
+verse3 line1
+** CHORUS line1
+** CHORUS line2
+** CHORUS line1
+** CHORUS line2
+[end]
+
+___________test - normal song___________
+[start]
+There's nothing you can do that can't be done
+Nothing you can sing that can't be sung
+Nothing you can say but you can learn how to play the game
+It's easy
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+Nothing you can know that isn't known
+Nothing you can see that isn't shown
+Nowhere you can be that isn't where you're meant to be
+It's easy
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+[end]
+
+_____test - one verse = empty tuple_____
+[start]
+** CHORUS line1
+** CHORUS line2
+verse2 line1
+verse2 line2
+** CHORUS line1
+** CHORUS line2
+** CHORUS line1
+** CHORUS line2
+[end]
+
+______test - verses = empty tuple_______
+[start]
+** CHORUS line1
+** CHORUS line2
+[end]
+
+______test - chorus = empty tuple_______
+[start]
+verse1 line1
+verse1 line2
+verse2 line1
+verse2 line2
+verse2 line3
+verse3 line1
+[end]
+
+______test - both arguments empty_______
+[start]
+[end]

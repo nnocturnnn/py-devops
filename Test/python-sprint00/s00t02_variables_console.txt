@@ -1,0 +1,6 @@
+>python3 var.py
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+>

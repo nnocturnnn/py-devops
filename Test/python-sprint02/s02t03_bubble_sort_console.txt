@@ -1,0 +1,7 @@
+>python3 s02t03_bubble_sort_main.py
+Before sorting: [1, 2, 3, -1230]
+After sorting: [-1230, 1, 2, 3]
+***
+Before sorting: [3, 2, 1, 2, 2, 2, 3, 9, 8, 1, 3, 12, 32]
+After sorting: [1, 1, 2, 2, 2, 2, 3, 3, 3, 8, 9, 12, 32]
+>

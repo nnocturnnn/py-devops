@@ -1,0 +1,13 @@
+>python3 directions.py
+There are 3 signs in front of you. Which one would you like to read? right
+The right sign says: "DEAD PEOPLE ONLY"
+>python3 directions.py
+There are 3 signs in front of you. Which one would you like to read? left
+The left sign says: "BEWARE!"
+>python3 directions.py
+There are 3 signs in front of you. Which one would you like to read? middle
+The middle sign says: "CERTAIN DEATH"
+>python3 directions.py
+There are 3 signs in front of you. Which one would you like to read? top
+There is no top sign
+>

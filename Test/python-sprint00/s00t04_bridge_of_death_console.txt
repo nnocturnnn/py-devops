@@ -1,0 +1,17 @@
+>python3 input.py
+BRIDGEKEEPER: Stop.
+Who would cross the Bridge of Death must answer me these questions three.
+BRIDGEKEEPER: What is your name?
+Sir Lancelot of Camelot
+BRIDGEKEEPER: What is your quest?
+to seek the Holy Grail
+BRIDGEKEEPER: What is your favorite color?
+blue
+----------
+Traveler info:
+Your name is Sir Lancelot of Camelot
+Your quest is to seek the Holy Grail
+Your favorite color is blue
+----------
+BRIDGEKEEPER: Right. Off you go.
+>

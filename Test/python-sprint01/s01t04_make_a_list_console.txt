@@ -1,0 +1,16 @@
+>python3 s01t04_make_a_list_main.py
+Our chief weapon is ['surprise']... surprise and fear... fear and surprise...
+Our 2 weapons are ['fear', 'surprise'] and ruthless efficiency.
+Our 3 weapons are ['fear', 'surprise', 'ruthless efficiency'],
+	and an almost fanatical devotion to the Pope.
+Our 4, no... Amongst our weaponry are such elements as:
+	['fear', 'surprise', 'ruthless efficiency', 'an almost fanatical devotion to the Pope'],
+	and nice red uniforms - Oh damn!
+
+Original string: `abracadabra`; delimiter: `b`;
+	result: ['a', 'racada', 'ra']
+Original string: ``; delimiter: `*`;
+	result: ['']
+Original string: `testing.extra.delims.in.the.end..`; delimiter: `.`;
+	result: ['testing', 'extra', 'delims', 'in', 'the', 'end', '', '']
+>

@@ -1,0 +1,5 @@
+>python3 s02t02_set_main.py
+Witches found: ['Cedonia', 'Lydia']
+Witches found: []
+Witches found: ['Adam', 'Alice', 'Cedonia', 'Daegal', 'Lydia', 'Paxton']
+>

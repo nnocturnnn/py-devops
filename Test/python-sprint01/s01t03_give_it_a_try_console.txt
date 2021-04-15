@@ -1,0 +1,7 @@
+>python3 s01t03_give_it_a_try_main.py
+3
+False
+False
+-234
+-234
+>

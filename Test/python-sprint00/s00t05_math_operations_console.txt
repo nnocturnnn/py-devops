@@ -1,0 +1,21 @@
+>python3 math.py
+Enter the first number: 7
+Enter the second number: 4
+7 + 4 = 11
+7 - 4 = 3
+7 / 4 = 1.75
+7 * 4 = 28
+7 % 4 = 3
+7 ** 4 = 2401
+7 // 4 = 1
+>python3 math.py
+Enter the first number: 33
+Enter the second number: 4
+33 + 4 = 37
+33 - 4 = 29
+33 / 4 = 8.25
+33 * 4 = 132
+33 % 4 = 1
+33 ** 4 = 1185921
+33 // 4 = 8
+>

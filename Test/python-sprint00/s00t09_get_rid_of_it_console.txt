@@ -1,0 +1,7 @@
+>python3 rid.py
+1
+Traceback (most recent call last):
+  File "rid.py", line 4, in <module>
+    print(my_number)
+NameError: name 'my_number' is not defined
+>

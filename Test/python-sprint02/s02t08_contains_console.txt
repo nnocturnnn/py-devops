@@ -1,0 +1,13 @@
+>python3 s02t08_contains_main.py
+-----Agruments-----
+'Ah, I see you have the machine that goes 'ping'. This is my favorite.'
+['ping', 'machine']
+-----Detected-----
+['ping', 'machine']
+***
+-----Agruments-----
+'Strange women lying in ponds, distributing swords, is no basis for a system of government!'
+['strange', 'no, basis']
+-----Detected-----
+['strange']
+>

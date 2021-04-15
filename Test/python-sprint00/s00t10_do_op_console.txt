@@ -1,0 +1,16 @@
+>python3 do_op.py
+---- Simple calculator ----
+Let's add some numbers
+Input your first value: 2
+Input your operator: +
+Input your second value: 2
+2 + 2 = 4
+---- Simple calculator ----
+>python3 do_op.py
+---- Simple calculator ----
+Let's add some numbers
+Input your first value: 4
+Input your operator: ++
+usage: the operator must be '*' or '+' or '-' or '/'
+---- Simple calculator ----
+>

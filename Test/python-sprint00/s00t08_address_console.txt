@@ -1,0 +1,7 @@
+>python3 address.py
+first_var = 1000, address is 4529357712
+second_var = 1000, address is 4529357712
+third_var = 999, address is 4527480496
+1000 is 1000 = True
+1000 is 999 = False
+>

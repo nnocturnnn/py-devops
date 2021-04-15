@@ -1,0 +1,14 @@
+>python3 s01t02_return_main.py
+Buy milk with $25, result: [milk]
+Buy bread with $19, result: [bread]
+Buy milk with nothing, result: None
+Buy bread with nothing, result: None
+Buy milk with $200, result: [milk][milk][milk][milk][milk][milk][milk][milk]
+Buy bread with $200, result: [bread][bread][bread]
+Buy milk with $10, result: None
+Buy bread with $10, result: None
+Buy milk with $53, result: [milk][milk]
+Buy bread with $53, result: [bread][bread]
+Buy milk with $100, result: [milk][milk][milk][milk]
+Buy bread with $100, result: [bread][bread][bread]
+>

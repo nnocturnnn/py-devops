@@ -1,0 +1,11 @@
+>python3 s01t06_for_main.py
+Moby-Dick or, the Whale
+Frankenstein
+The Arabian Nights
+The Dream of the Red Chamber
+***
+The Crucible byby Arthur Miller
+The Crucible byArthur Miller
+The Crucibleby Arthur Miller
+by Arthur Miller The Crucible
+>

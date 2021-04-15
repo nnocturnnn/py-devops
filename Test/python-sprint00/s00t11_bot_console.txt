@@ -1,0 +1,36 @@
+>python3 bot.py
+Enter your first string:
+Enter your second string:
+One of the strings is empty.
+>python3 bot.py
+Enter your first string: hello
+Enter your second string:
+One of the strings is empty.
+>python3 bot.py
+Enter your first string: qwe
+Enter your second string: qwe
+Enter your command: qwe
+usage: command find | concat | beatbox
+>python3 bot.py
+Enter your first string: hello
+Enter your second string: world
+Enter your command: concat
+Your string is: hello world
+>python3 bot.py
+Enter your first string: hello
+Enter your second string: world
+Enter your command: find
+False
+>python3 bot.py
+Enter your first string: helloooo
+Enter your second string: hello
+Enter your command: find
+True
+>python3 bot.py
+Enter your first string: qw
+Enter your second string: e
+Enter your command: beatbox
+Enter your first beatbox number: 3
+Enter your second beatbox number: 4
+qwqwqweeee
+>
