@@ -9,9 +9,8 @@ def calculator(operator, f_num, s_num):
         if operator not in div:
             raise ValueError("Invalid operation. Available operations: add, mul, div, pow, sub.")
         lam = div[operator]
-        try:
-            print(lam(f_num,s_num))
-        except ValueError:
+        if (type(f_num) != int and type(f_num) != float and type(f_num) != complex) or \
+            (type(s_num) != int and type(s_num) != float and type(s_num) != complex): 
             raise ValueError("Invalid numbers. Second and third arguments must be numerical")
-
-calculator("add","4",4)
+        print(lam(f_num,s_num))
+            
