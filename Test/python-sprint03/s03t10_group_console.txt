@@ -1,0 +1,65 @@
+>python3 s03t10_group_main.py
+{
+  "female": [
+    {
+      "name": "Monika",
+      "species": "human",
+      "job": "stockbroker"
+    },
+    {
+      "name": "Veronika",
+      "species": "human",
+      "job": "church warden"
+    }
+  ],
+  "male": [
+    {
+      "name": "Alex",
+      "species": "human",
+      "job": "bicycle repair man"
+    },
+    {
+      "name": "Bob",
+      "species": "human",
+      "job": "quantity surveyor"
+    },
+    {
+      "name": "George",
+      "species": "human",
+      "job": "bicycle repair man"
+    }
+  ]
+}
+
+{
+  "human": {
+    "female": {
+      "church warden": [
+        {
+          "name": "Veronika"
+        }
+      ],
+      "stockbroker": [
+        {
+          "name": "Monika"
+        }
+      ]
+    },
+    "male": {
+      "bicycle repair man": [
+        {
+          "name": "Alex"
+        },
+        {
+          "name": "George"
+        }
+      ],
+      "quantity surveyor": [
+        {
+          "name": "Bob"
+        }
+      ]
+    }
+  }
+}
+>

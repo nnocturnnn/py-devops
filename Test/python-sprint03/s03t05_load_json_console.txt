@@ -1,0 +1,6 @@
+>python3 s03t05_load_json_main.py
+{'public': 263, 'private': 237}
+{'Promotion': 102, 'Entertainment': 82, None: 75, 'Connection': 62, 'Inspiration': 59, 'Conversation': 56, 'Education': 56, '': 5, 'unhashable': 2, False: 1}
+{None: 500}
+Error in decoding JSON.
+>

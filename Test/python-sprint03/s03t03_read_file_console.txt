@@ -1,0 +1,16 @@
+>python3 s03t03_read_file_main.py
+File "sample.txt" has the following message:
+"You only killed the bride’s father, you know."
+"I didn’t mean to."
+"Didn’t mean to? You put your sword right through his head."
+"Oh dear... is he all right?"
+***
+File "sample1.txt" has the following message:
+Bedevere: "What makes you think she is a witch?"
+Peasant: "She turned me into a newt."
+Bedevere: "A newt?"
+Peasant: "Well I got better."
+***
+Failed to read file "no_permission.txt".
+***
+>

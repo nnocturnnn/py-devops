@@ -1,0 +1,23 @@
+>python3 s03t02_the_extractor_main.py
+***
+brian, str: {'name': 'Brian', 'email': 'very_naughty_boy@gmail.com', 'star_sign': 'Capricorn'}
+***
+brian, int: {'age': 33, 'legs': 2}
+***
+brian, list: {}
+***
+monty_python, list:
+{'media': ['film', 'tv', 'radio', 'audio', 'literature'], 'genres': ['satire', 'surreal', 'black comedy']}
+***
+monty_python, float:
+{'average sketch length': 30.5}
+***
+monty_python, dict:
+{'songs': {'The Meaning Of Life': ['Accountancy Shanty', 'Galaxy Song'], 'Monty Python And The Holy Grail': ['The Tale Of Sir Robin', 'Camelot Song'], 'Life Of Brian': ['Brian Song', 'Always Look On The Bright Side Of Life'], 'Monty Python’s Flying Circus': ['The Liberty Bell', 'Lumberjack Song', 'Spam Song']}}
+***
+monty_python, no data type given:
+{'title': 'Monty Python', 'country of origin': 'United Kingdom', 'official website': 'montypython.com'}
+***
+empty, int:
+{}
+>

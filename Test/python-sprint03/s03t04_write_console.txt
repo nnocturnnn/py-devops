@@ -1,0 +1,20 @@
+>python3 s03t04_write_main.py
+Please enter the filename in the format "filename.txt".
+Failed to write to file "file".
+***
+Your message has been written to file "file.txt".
+File "file.txt" now contains the following text:
+None
+***
+Please enter the filename in the format "filename.txt".
+Failed to write to file "file".
+***
+Your message has been written to file "new_file.txt".
+File "new_file.txt" now contains the following text:
+Hello there
+***
+Your message has been written to file "example.txt".
+File "example.txt" now contains the following text:
+A new message
+***
+>

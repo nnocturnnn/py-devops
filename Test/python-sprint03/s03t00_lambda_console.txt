@@ -1,0 +1,16 @@
+>python3 expression.py
+n: 15
+a: 3
+b: 5
+True
+>python3 expression.py
+n: 64
+a: 2
+b: 14
+False
+>python3 expression.py
+n: 10
+a: 4
+b: 5
+False
+>

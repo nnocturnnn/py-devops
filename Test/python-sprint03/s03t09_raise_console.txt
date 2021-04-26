@@ -1,0 +1,34 @@
+>python3 s03t09_raise_main.py
+call with "value", "This is a `value` error.":
+	Raised error: <class 'ValueError'>
+	Message: This is a `value` error.
+
+call with "key", "This is a `key` error.":
+	Raised error: <class 'KeyError'>
+	Message: 'This is a `key` error.'
+
+call with "index", "This is a `index` error.":
+	Raised error: <class 'IndexError'>
+	Message: This is a `index` error.
+
+call with "memory", "This is a `memory` error.":
+	Raised error: <class 'MemoryError'>
+	Message: This is a `memory` error.
+
+call with "name", "This is a `name` error.":
+	Raised error: <class 'NameError'>
+	Message: This is a `name` error.
+
+call with "eof", "This is a `eof` error.":
+	Raised error: <class 'EOFError'>
+	Message: This is a `eof` error.
+
+call with "wrong", "This is a `wrong` error.":
+	Raised error: <class 'ValueError'>
+	Message: No error with such key.
+
+call with "", "This is a `` error.":
+	Raised error: <class 'ValueError'>
+	Message: No error with such key.
+
+>
