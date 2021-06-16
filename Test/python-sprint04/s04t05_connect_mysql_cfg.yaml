@@ -1,0 +1,4 @@
+settings:
+  host: your_host_here
+  user: your_user_name_here
+  password: your_pass_here

@@ -1,0 +1,19 @@
+>python3 knight_factory.py
+..::Knight Generator::.. 8672-INFO-Package __init__ executed.
+..::Knight Generator::.. 8672-INFO-[Name chosen.]
+..::Knight Generator::.. 8672-INFO-[Title chosen.]
+..::Knight Generator::.. 8672-INFO-Sir Pelleas the Tall-One
+..::Knight Generator::.. 8672-INFO-[Name chosen.]
+..::Knight Generator::.. 8672-INFO-[Title chosen.]
+..::Knight Generator::.. 8672-INFO-Sir Dagonet the Tiny
+..::Knight Generator::.. 8672-INFO-[Name chosen.]
+..::Knight Generator::.. 8672-INFO-[Title chosen.]
+..::Knight Generator::.. 8672-INFO-Sir Lebius Desconneu the Thrice-Divorced
+..::Knight Generator::.. 8672-INFO-[Name chosen.]
+..::Knight Generator::.. 8672-INFO-[Title chosen.]
+..::Knight Generator::.. 8672-INFO-Sir Lamorak the Never-There
+..::Knight Generator::.. 8672-INFO-[Name chosen.]
+..::Knight Generator::.. 8672-INFO-[Title chosen.]
+..::Knight Generator::.. 8672-INFO-Sir Percivale the Thrice-Divorced
+>
+

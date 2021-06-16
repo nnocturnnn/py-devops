@@ -1,0 +1,75 @@
+>cat cfg.yaml
+settings:
+  host: [hidden]
+  user: [hidden]
+  password: [hidden]
+>python3 database.py
+Error: command-line arguments are invalid.
+>python3 database.py databases
+Connected to MySQL server (version 8.0.22), database None.
+Database list:
+        - information_schema
+        - mysql
+        - performance_schema
+        - sys
+        - user
+MySQL connection is closed.
+>python3 database.py create my_db
+Connected to MySQL server (version 8.0.22), database None.
+Database 'my_db' is created.
+MySQL connection is closed.
+>python3 database.py create my_db
+Connected to MySQL server (version 8.0.22), database None.
+MySQL connection Error: 1007 (HY000): Can't create database 'my_db'; database exists
+>python3 database.py tables
+Connected to MySQL server (version 8.0.22), database None.
+Error: not connected to a database.
+MySQL connection is closed.
+>echo "  database: my_db" >> cfg.yaml
+>cat cfg.yaml
+settings:
+  host: [hidden]
+  user: [hidden]
+  password: [hidden]
+  database: my_db
+>python3 database.py tables
+Connected to MySQL server (version 8.0.22), database my_db.
+No tables.
+MySQL connection is closed.
+>sed -i'' -e 's/my_db/mysql/g' cfg.yaml
+>cat cfg.yaml
+settings:
+  host: [hidden]
+  user: [hidden]
+  password: [hidden]
+  database: mysql
+>python3 database.py tables
+Connected to MySQL server (version 8.0.22), database mysql.
+Table list:
+        - columns_priv
+        - component
+        - db
+        - default_roles
+        - engine_cost
+        - func
+        - general_log
+        [more lines]
+MySQL connection is closed.
+>python3 database.py databases
+Connected to MySQL server (version 8.0.22), database mysql.
+Database list:
+        - information_schema
+        - my_db
+        - mysql
+        - performance_schema
+        - sys
+        - user
+MySQL connection is closed.
+>python3 database.py drop my_db
+Connected to MySQL server (version 8.0.22), database mysql.
+Database 'my_db' is dropped.
+MySQL connection is closed.
+>python3 database.py drop my_db
+Connected to MySQL server (version 8.0.22), database mysql.
+MySQL connection Error: 1008 (HY000): Can't drop database 'my_db'; database doesn't exist
+>

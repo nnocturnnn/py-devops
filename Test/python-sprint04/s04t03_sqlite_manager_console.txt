@@ -1,0 +1,57 @@
+>python3 manager.py
+Enter command: help
+Available commands:
+- help
+- connect [database]
+- close [database]
+- execute [database] "[SQL statement]"
+- show
+- exit
+Enter command: show
+No connections.
+Enter command: exit
+>python3 manager.py
+Enter command: connect my_database
+Created connection to database "my_database".
+Enter command: show
+Connected to:
+['my_database']
+Enter command: connect another_database.db
+Created connection to database "another_database.db".
+Enter command: show
+Connected to:
+['my_database', 'another_database.db']
+Enter command: exit
+Closed connection to database "my_database".
+Closed connection to database "another_database.db".
+>python3 manager.py
+Enter command: connect cats.db
+Created connection to database "cats.db".
+Enter command: connect dogs.db
+Created connection to database "dogs.db".
+Enter command: connect birds.db
+Created connection to database "birds.db".
+Enter command: connect dogs.db
+Already connected to database "dogs.db".
+Enter command: show
+Connected to:
+['cats.db', 'dogs.db', 'birds.db']
+Enter command: close snakes.db
+Cannot close connection to "snakes.db". Not connected.
+Enter command: close dogs.db
+Closed connection to database "dogs.db".
+Enter command: close dogs.db
+Cannot close connection to "dogs.db". Not connected.
+Enter command: show
+Connected to:
+['cats.db', 'birds.db']
+Enter command: execute cats.db "CREATE TABLE my_cats(id integer, name text)"
+Executed SQL statement.
+Enter command: execute cats.db "INSERT INTO my_cats VALUES(4, 'Tom')"
+Executed SQL statement.
+Enter command: execute cats.db "not an sql statement"
+near "not": syntax error
+Enter command: exit
+Closed connection to database "cats.db".
+Closed connection to database "birds.db".
+>

@@ -1,0 +1,23 @@
+>python3 s04t00_read_url_main.py
+*** Test 1 ***
+INFO| Sending the request to the 'https://www.bbc.com/'.
+INFO| Request to the 'https://www.bbc.com/' has been sent.
+INFO| <Response [200]>.
+INFO| Parsing page data.
+INFO| Page data has been parsed.
+INFO| Saving page data to 'bbc.html'.
+INFO| Page data has been saved.
+*** Test 2 ***
+ERROR| The site URL format is invalid.
+>head -10 bbc.html
+    <!DOCTYPE html>
+<html class="b-header--black--white b-pw-1280 b-reith-sans-font">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Breaking news, sport, TV, radio and a whole lot more.
+        The BBC informs, educates and entertains - wherever you are, whatever your age.">
+        <meta name="keywords" content="BBC, bbc.co.uk, bbc.com, Search, British Broadcasting Corporation, BBC iPlayer, BBCi">
+        <title>BBC - Homepage</title>
+
+>

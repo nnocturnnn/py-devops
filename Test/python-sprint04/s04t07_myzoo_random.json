@@ -1,0 +1,185 @@
+{
+  "database": "zoo",
+  "table": "animals",
+  "news": [
+  {
+    "species": "Koala",
+    "name": "Daisy",
+    "event": "birthday",
+    "area": "A2"
+  },
+  {
+    "event": "moved out",
+    "species": "Giraffe",
+    "area": "A2",
+    "endangered": true
+  },
+  {
+    "event": "moved out",
+    "species": "Horse",
+    "color": "brown",
+    "weight": 86
+  },
+  {
+    "species": "Penguin",
+    "name": "Ollie",
+    "event": "moved in",
+    "age": 20
+  },
+  {
+    "species": "Puma",
+    "name": "Ty",
+    "event": "moved in",
+    "age": 9,
+    "endangered": false,
+    "area": "A1",
+    "color": "brown"
+  },
+  {
+    "event": "moved out",
+    "weight": 51
+  },
+  {
+    "species": "Seal",
+    "name": "Ollie",
+    "event": "birthday",
+    "area": "A1"
+  },
+  {
+    "event": "moved out",
+    "area": "A1"
+  },
+  {
+    "species": "Gorilla",
+    "name": "Ty",
+    "event": "moved in",
+    "age": 6
+  },
+  {
+    "event": "moved out",
+    "weight": 29
+  },
+  {
+    "species": "Seal",
+    "name": "Jay",
+    "event": "moved in",
+    "age": 2,
+    "area": "A1"
+  },
+  {
+    "species": "Panda",
+    "name": "Alex",
+    "event": "moved in",
+    "age": 24,
+    "color": "black"
+  },
+  {
+    "event": "moved out",
+    "species": "Lion"
+  },
+  {
+    "species": "Tortoise",
+    "name": "Ollie",
+    "event": "born",
+    "color": "black",
+    "area": "A1"
+  },
+  {
+    "event": "moved out",
+    "area": "A2",
+    "color": "brown",
+    "weight": 78
+  },
+  {
+    "event": "moved out",
+    "endangered": true
+  },
+  {
+    "species": "Zebra",
+    "name": "Tina",
+    "event": "born",
+    "area": "A1",
+    "endangered": false
+  },
+  {
+    "species": "Horse",
+    "name": "Walter",
+    "event": "died"
+  },
+  {
+    "species": "Hyena",
+    "name": "Tina",
+    "event": "died"
+  },
+  {
+    "species": "Penguin",
+    "name": "Rocky",
+    "event": "born",
+    "weight": 45,
+    "area": "A2"
+  },
+  {
+    "species": "Bear",
+    "name": "Ty",
+    "event": "birthday",
+    "weight": 68
+  },
+  {
+    "species": "Bat",
+    "name": "Walter",
+    "event": "died"
+  },
+  {
+    "species": "Zebra",
+    "name": "Oscar",
+    "event": "born",
+    "weight": 92
+  },
+  {
+    "species": "Horse",
+    "name": "Jay",
+    "event": "born",
+    "endangered": true,
+    "area": "A1"
+  },
+  {
+    "species": "Gorilla",
+    "name": "Oscar",
+    "event": "birthday",
+    "weight": 83,
+    "endangered": true,
+    "color": "black"
+  },
+  {
+    "species": "Panda",
+    "name": "Rocky",
+    "event": "birthday"
+  },
+  {
+    "event": "moved out",
+    "weight": 32,
+    "area": "A1",
+    "color": "gray"
+  },
+  {
+    "species": "Koala",
+    "name": "Ruby",
+    "event": "moved in",
+    "age": 6,
+    "endangered": false
+  },
+  {
+    "species": "Penguin",
+    "name": "Daisy",
+    "event": "moved in",
+    "age": 11,
+    "weight": 50,
+    "area": "A1"
+  },
+  {
+    "event": "moved out",
+    "area": "A2",
+    "color": "brown"
+  }
+]
+}

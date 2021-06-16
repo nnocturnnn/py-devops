@@ -1,0 +1,15 @@
+*** Valid ***
+https://ucode.world/
+https://ucode.world/devops-world/
+https://ucode.world/devops-world
+http://something.com/webpage25_(hello)
+http://142.42.1.1:8080/
+https://en.wikipedia.org/wiki/URL#cite_note-FOOTNOTEW3C2009-1
+http://www.website.com/items?type=5&page=1&id=0
+
+*** Invalid ***
+https://
+https://www.google.com/search?q=s p a c e s
+ucode.world
+https://.
+/webpage/home.html

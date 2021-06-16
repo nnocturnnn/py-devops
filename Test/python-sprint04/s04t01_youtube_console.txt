@@ -1,0 +1,11 @@
+>python3 player.py https://www.youtube.com/watch\?v\=yKQ_sQKBASM
+INFO| Opening the YouTube video at https://www.youtube.com/watch?v=yKQ_sQKBASM.
+INFO| YouTube video opened.
+>python3 player.py
+ERROR| The site URL was not passed.
+>python3 player.py https://pymotw.com/2/webbrowser/
+ERROR| The URL is invalid.
+>python3 player.py https://www.youtube.com/watch\?v\=yKQ_sQKBASM some random arguments
+INFO| Opening the YouTube video at https://www.youtube.com/watch?v=yKQ_sQKBASM.
+INFO| YouTube video opened.
+>

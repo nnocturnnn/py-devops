@@ -1,0 +1,50 @@
+>python3 soup.py https://docs.python.org/3/library/unicodedata.html
+>cat unicodedata__Unicode_Database.json
+[
+ {
+  "link_text": "UCD version 13.0.0",
+  "url": "https://www.unicode.org/Public/13.0.0/ucd",
+  "title": "Index of /Public/13.0.0/ucd"
+ },
+ {
+  "link_text": "“Unicode Character Database”",
+  "url": "https://www.unicode.org/reports/tr44/",
+  "title": "UAX #44: Unicode Character Database"
+ },
+ {
+  "link_text": "https://www.unicode.org/Public/13.0.0/ucd/NameAliases.txt",
+  "url": "https://www.unicode.org/Public/13.0.0/ucd/NameAliases.txt",
+  "title": null
+ },
+ {
+  "link_text": "https://www.unicode.org/Public/13.0.0/ucd/NamedSequences.txt",
+  "url": "https://www.unicode.org/Public/13.0.0/ucd/NamedSequences.txt",
+  "title": null
+ }
+]%
+>
+>python3 soup.py https://docs.python.org/3/library/itertools.html
+>cat itertools__Functions_creating_iterators_for_efficient_looping.json
+[
+ {
+  "link_text": "recurrence relations",
+  "url": "https://en.wikipedia.org/wiki/Recurrence_relation",
+  "title": "Recurrence relation - Wikipedia"
+ },
+ {
+  "link_text": "more-itertools project",
+  "url": "https://pypi.org/project/more-itertools/",
+  "title": "more-itertools · PyPI"
+ }
+]%
+>
+>python3 soup.py https://docs.python.org/3/library/functions.html
+>cat Builtin_Functions.json
+[
+ {
+  "link_text": "guide to using super()",
+  "url": "https://rhettinger.wordpress.com/2011/05/26/super-considered-super/",
+  "title": "Python’s super() considered super! | Deep Thoughts by Raymond Hettinger"
+ }
+]%
+>
