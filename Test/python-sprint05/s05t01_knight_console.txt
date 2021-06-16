@@ -1,0 +1,26 @@
+>python3 s05t01_knight_main.py
+{
+ "name": "Robin",
+ "title": "Not-quite-so-brave-as-Sir-Lancelot",
+ "deeds": [
+  "Nearly fought the Dragon of Angnor.",
+  "Nearly stood up to the vicious Chicken of Bristol.",
+  "Personally wet himself at the Battle of Badon Hill."
+ ],
+ "group": "Knights of the Round Table",
+ "gender": "male"
+}
+Hello, I'm Sir Robin the Not-quite-so-brave-as-Sir-Lancelot!
+---
+{
+ "name": "Bedevere"
+}
+Hello!
+---
+{
+ "eyes": "brown",
+ "age": 30
+}
+Hello!
+---
+>

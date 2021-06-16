@@ -1,0 +1,48 @@
+>python3 s05t03_decorator_main.py
+INFO <Cargo>: - __init__ method has been called.
+INFO <Cargo>: - __init__ method has been called.
+INFO <Cargo>: - __init__ method has been called.
+INFO <Cargo>: - __init__ method has been called.
+INFO <Container>: - set_cargo method has been called.
+INFO <Container>: - __init__ method has been called.
+INFO <Container>: - set_cargo method has been called.
+INFO <Container>: - __init__ method has been called.
+INFO <Container>: - set_cargo method has been called.
+INFO <Container>: - __init__ method has been called.
+INFO <Container>: - set_cargo method has been called.
+INFO <Container>: - __init__ method has been called.
+INFO <Container>: - set_cargo method has been called.
+INFO <Ship>: - add_containers method has been called.
+INFO <Ship>: - __init__ method has been called.
+INFO <Cargo>: - __init__ method has been called.
+INFO <Container>: - set_cargo method has been called.
+INFO <Container>: - __init__ method has been called.
+INFO <Ship>: - add_containers method has been called.
+
+*** Ship __str__ ***
+INFO <Cargo>: - __str__ method has been called.
+INFO <Container>: - __str__ method has been called.
+INFO <Cargo>: - __str__ method has been called.
+INFO <Container>: - __str__ method has been called.
+INFO <Cargo>: - __str__ method has been called.
+INFO <Container>: - __str__ method has been called.
+INFO <Cargo>: - __str__ method has been called.
+INFO <Container>: - __str__ method has been called.
+INFO <Ship>: - __str__ method has been called.
+Ship to ['Manila', 'Hamburg', 'Fuzhou', 'Piraeus', 'Kaohsiung'] with containers:
+Container up to 3000 with Cargo to Kaohsiung with weight 700
+Container up to 10000 with Cargo to Hamburg with weight 8000
+Container up to 2000 with Cargo to Manila with weight 1500
+Container up to 3000 with Cargo to Hamburg with weight 3000
+
+*** Ship __repr__ ***
+INFO <Cargo>: - __repr__ method has been called.
+INFO <Container>: - __repr__ method has been called.
+INFO <Cargo>: - __repr__ method has been called.
+INFO <Container>: - __repr__ method has been called.
+INFO <Cargo>: - __repr__ method has been called.
+INFO <Container>: - __repr__ method has been called.
+INFO <Cargo>: - __repr__ method has been called.
+INFO <Container>: - __repr__ method has been called.
+INFO <Ship>: - __repr__ method has been called.
+Ship(route=['Manila', 'Hamburg', 'Fuzhou', 'Piraeus', 'Kaohsiung'], containers=[Container(weight_limit=3000, cargo=Cargo(destination=Kaohsiung, weight=700)), Container(weight_limit=10000, cargo=Cargo(destination=Hamburg, weight=8000)), Container(weight_limit=2000, cargo=Cargo(destination=Manila, weight=1500)), Container(weight_limit=3000, cargo=Cargo(destination=Hamburg, weight=3000))])

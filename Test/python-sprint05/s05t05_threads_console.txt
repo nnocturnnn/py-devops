@@ -1,0 +1,13 @@
+>python3 s05t05_threads_main.py
+[Thread 1]: file 1 line1
+[Thread 2]: file 2 line1
+[Thread 3]: file 1 line1
+[Thread 2]: file 2 line2
+[Thread 2]: file 2 line3
+[Thread 1]: file 1 line2
+[Thread 3]: file 1 line2
+[Thread 1]: file 1 line3
+[Thread 1]: file 1 line4
+[Thread 3]: file 1 line3
+[Thread 3]: file 1 line4
+>
