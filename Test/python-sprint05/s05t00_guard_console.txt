@@ -1,0 +1,13 @@
+>python3 s05t00_guard_main.py
+***EXAMPLE 1***
+Hello, my name is Christopher!
+You may pass.
+***EXAMPLE 2***
+Hello, my name is None!
+I am not letting you pass.
+You may pass.
+***EXAMPLE 3***
+Hello, my name is Christopher!
+I am not letting you pass.
+You may pass.
+>

@@ -1,0 +1,26 @@
+>python3 s05t10_traffic_light_main.py 10
+INFO GreenState created
+INFO RedState created
+INFO YellowState created
+INFO TrafficLight state machine created
+WARNING The traffic light is: Green
+WARNING The traffic light is: Yellow
+WARNING The traffic light is: Red
+WARNING The traffic light is: Yellow
+WARNING The traffic light is: Green
+WARNING The traffic light is: Yellow
+WARNING The traffic light is: Red
+WARNING The traffic light is: Yellow
+WARNING The traffic light is: Green
+WARNING The traffic light is: Yellow
+>python3 s05t10_traffic_light_main.py 5
+INFO GreenState created
+INFO RedState created
+INFO YellowState created
+INFO TrafficLight state machine created
+WARNING The traffic light is: Green
+WARNING The traffic light is: Yellow
+WARNING The traffic light is: Red
+WARNING The traffic light is: Yellow
+WARNING The traffic light is: Green
+>

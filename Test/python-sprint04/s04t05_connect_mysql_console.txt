@@ -1,0 +1,6 @@
+>python3 database.py
+MySQL connection Error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+>python3 database.py
+Connected to MySQL server (version 8.0.24).
+MySQL connection is closed.
+>

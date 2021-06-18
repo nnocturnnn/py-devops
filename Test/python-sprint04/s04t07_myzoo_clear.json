@@ -1,0 +1,138 @@
+{
+  "database": "zoo",
+  "table": "animals",
+  "news": [
+  {
+    "event": "moved out",
+    "name": "Tina"
+  },
+  {
+    "event": "moved out",
+    "area": "A1",
+    "endangered": false
+  },
+  {
+    "species": "Tortoise",
+    "name": "Ozzy",
+    "event": "died"
+  },
+  {
+    "event": "moved out",
+    "species": "Penguin"
+  },
+  {
+    "event": "moved out",
+    "area": "A1"
+  },
+  {
+    "event": "moved out",
+    "name": "Daisy"
+  },
+  {
+    "event": "moved out",
+    "species": "Penguin"
+  },
+  {
+    "event": "moved out",
+    "name": "Lisa"
+  },
+  {
+    "event": "moved out",
+    "name": "Micky"
+  },
+  {
+    "event": "moved out",
+    "area": "A1",
+    "endangered": false
+  },
+  {
+    "event": "moved out",
+    "color": "brown"
+  },
+  {
+    "event": "moved out",
+    "species": "Koala",
+    "area": "A1",
+    "endangered": true
+  },
+  {
+    "event": "moved out",
+    "color": "black",
+    "area": "A1",
+    "weight": 46
+  },
+  {
+    "event": "moved out",
+    "age": 10
+  },
+  {
+    "event": "moved out",
+    "endangered": false,
+    "area": "A2"
+  },
+  {
+    "event": "moved out",
+    "endangered": true
+  },
+  {
+    "event": "moved out",
+    "age": 0
+  },
+  {
+    "event": "moved out",
+    "name": "Daisy"
+  },
+  {
+    "event": "moved out",
+    "species": "Giraffe"
+  },
+  {
+    "event": "moved out",
+    "area": "A1"
+  },
+  {
+    "event": "moved out",
+    "area": "A2",
+    "color": "brown"
+  },
+  {
+    "event": "moved out",
+    "species": "Wolf",
+    "area": "A2",
+    "color": "brown"
+  },
+  {
+    "event": "moved out",
+    "color": "black"
+  },
+  {
+    "event": "moved out",
+    "area": "A2"
+  },
+  {
+    "event": "moved out",
+    "endangered": false
+  },
+  {
+    "event": "moved out",
+    "name": "Angela",
+    "area": "A1"
+  },
+  {
+    "event": "moved out",
+    "name": "Ruby"
+  },
+  {
+    "event": "moved out",
+    "age": 6
+  },
+  {
+    "event": "moved out",
+    "name": "Jay"
+  },
+  {
+    "event": "moved out",
+    "endangered": false
+  }
+]
+}

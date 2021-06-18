@@ -1,0 +1,187 @@
+>python3 s04t07_myzoo_main.py s04t07_myzoo_fill.json
+Connected to MySQL server (version 8.0.22).
+Using database 'zoo'.
+Table animals: 0 rows, 3 columns.
++-----------+--------+-------+
+| species   | name   | age   |
+|-----------+--------+-------|
++-----------+--------+-------+
+Inserted Bear Angela into table animals of zoo.
+Column weight added to table animals.
+Column area added to table animals.
+Inserted Bear Walter into table animals of zoo.
+Inserted Hyena Jay into table animals of zoo.
+Inserted Horse Jack into table animals of zoo.
+Column endangered added to table animals.
+Inserted Giraffe Lisa into table animals of zoo.
+Inserted Koala Max into table animals of zoo.
+Inserted Panda Rocky into table animals of zoo.
+Inserted Penguin Ollie into table animals of zoo.
+Inserted Bat Red into table animals of zoo.
+Inserted Wolf Max into table animals of zoo.
+Inserted Bear Luke into table animals of zoo.
+Inserted Bear Rocky into table animals of zoo.
+Inserted Gorilla Oscar into table animals of zoo.
+Inserted Lion Ollie into table animals of zoo.
+Inserted Giraffe Jay into table animals of zoo.
+Inserted Hyena Oscar into table animals of zoo.
+Failed to process event: {'species': 'Penguin', 'name': 'Ollie', 'event': 'born'}. Error: 1062 (23000): Duplicate entry 'Penguin-Ollie' for key 'animals.PRIMARY'
+Failed to process event: {'species': 'Giraffe', 'name': 'Jay', 'event': 'moved in', 'age': 25, 'area': 'A2'}. Error: 1062 (23000): Duplicate entry 'Giraffe-Jay' for key 'animals.PRIMARY'
+Inserted Tortoise Ozzy into table animals of zoo.
+Inserted Horse Lisa into table animals of zoo.
+Inserted Bear Max into table animals of zoo.
+Inserted Giraffe Luke into table animals of zoo.
+Table animals: 20 rows, 6 columns.
++-----------+--------+-------+----------+--------+--------------+
+| species   | name   |   age |   weight | area   | endangered   |
+|-----------+--------+-------+----------+--------+--------------|
+| Bat       | Red    |     0 |          | A1     |              |
+| Bear      | Angela |     0 |          |        |              |
+| Bear      | Luke   |     0 |          |        | False        |
+| Bear      | Max    |     0 |          |        |              |
+| Bear      | Rocky  |     0 |       20 |        |              |
+| Bear      | Walter |     0 |       15 | A2     |              |
+| Giraffe   | Jay    |     2 |       90 |        | False        |
+| Giraffe   | Lisa   |     5 |          |        |              |
+| Giraffe   | Luke   |    12 |          |        |              |
+| Gorilla   | Oscar  |     0 |          | A1     |              |
+| Horse     | Jack   |     6 |          |        |              |
+| Horse     | Lisa   |     8 |          |        |              |
+| Hyena     | Jay    |    10 |          | A2     |              |
+| Hyena     | Oscar  |     0 |          |        |              |
+| Koala     | Max    |     4 |          | A1     |              |
+| Lion      | Ollie  |    10 |      105 |        | False        |
+| Panda     | Rocky  |    10 |          |        | True         |
+| Penguin   | Ollie  |     0 |          | A2     | False        |
+| Tortoise  | Ozzy   |    80 |          |        |              |
+| Wolf      | Max    |    10 |          |        |              |
++-----------+--------+-------+----------+--------+--------------+
+MySQL connection is closed.
+>python3 s04t07_myzoo_main.py s04t07_myzoo_random.json
+Connected to MySQL server (version 8.0.22).
+Using database 'zoo'.
+Table animals: 20 rows, 6 columns.
++-----------+--------+-------+----------+--------+--------------+
+| species   | name   |   age |   weight | area   | endangered   |
+|-----------+--------+-------+----------+--------+--------------|
+| Bat       | Red    |     0 |          | A1     |              |
+| Bear      | Angela |     0 |          |        |              |
+| Bear      | Luke   |     0 |          |        | False        |
+| Bear      | Max    |     0 |          |        |              |
+| Bear      | Rocky  |     0 |       20 |        |              |
+| Bear      | Walter |     0 |       15 | A2     |              |
+| Giraffe   | Jay    |     2 |       90 |        | False        |
+| Giraffe   | Lisa   |     5 |          |        |              |
+| Giraffe   | Luke   |    12 |          |        |              |
+| Gorilla   | Oscar  |     0 |          | A1     |              |
+| Horse     | Jack   |     6 |          |        |              |
+| Horse     | Lisa   |     8 |          |        |              |
+| Hyena     | Jay    |    10 |          | A2     |              |
+| Hyena     | Oscar  |     0 |          |        |              |
+| Koala     | Max    |     4 |          | A1     |              |
+| Lion      | Ollie  |    10 |      105 |        | False        |
+| Panda     | Rocky  |    10 |          |        | True         |
+| Penguin   | Ollie  |     0 |          | A2     | False        |
+| Tortoise  | Ozzy   |    80 |          |        |              |
+| Wolf      | Max    |    10 |          |        |              |
++-----------+--------+-------+----------+--------+--------------+
+Failed to process event: {'event': 'moved out', 'species': 'Horse', 'color': 'brown', 'weight': 86}. Error: 1054 (42S22): Unknown column 'color' in 'where clause'
+Failed to process event: {'species': 'Penguin', 'name': 'Ollie', 'event': 'moved in', 'age': 20}. Error: 1062 (23000): Duplicate entry 'Penguin-Ollie' for key 'animals.PRIMARY'
+Column color added to table animals.
+Inserted Puma Ty into table animals of zoo.
+Deleted 4 animals from table animals of zoo.
+Inserted Gorilla Ty into table animals of zoo.
+Inserted Seal Jay into table animals of zoo.
+Inserted Panda Alex into table animals of zoo.
+Deleted 1 animal from table animals of zoo.
+Inserted Tortoise Ollie into table animals of zoo.
+Deleted 1 animal from table animals of zoo.
+Inserted Zebra Tina into table animals of zoo.
+Inserted Penguin Rocky into table animals of zoo.
+Inserted Zebra Oscar into table animals of zoo.
+Inserted Horse Jay into table animals of zoo.
+Inserted Koala Ruby into table animals of zoo.
+Inserted Penguin Daisy into table animals of zoo.
+Table animals: 25 rows, 7 columns.
++-----------+--------+-------+----------+--------+--------------+---------+
+| species   | name   |   age |   weight | area   | endangered   | color   |
+|-----------+--------+-------+----------+--------+--------------+---------|
+| Bear      | Angela |     0 |          |        |              |         |
+| Bear      | Luke   |     0 |          |        | False        |         |
+| Bear      | Max    |     0 |          |        |              |         |
+| Bear      | Rocky  |     0 |       20 |        |              |         |
+| Bear      | Walter |     0 |       15 | A2     |              |         |
+| Giraffe   | Jay    |     2 |       90 |        | False        |         |
+| Giraffe   | Lisa   |     5 |          |        |              |         |
+| Giraffe   | Luke   |    12 |          |        |              |         |
+| Gorilla   | Ty     |     6 |          |        |              |         |
+| Horse     | Jack   |     6 |          |        |              |         |
+| Horse     | Jay    |     0 |          | A1     | True         |         |
+| Horse     | Lisa   |     8 |          |        |              |         |
+| Hyena     | Jay    |    10 |          | A2     |              |         |
+| Hyena     | Oscar  |     0 |          |        |              |         |
+| Koala     | Ruby   |     6 |          |        | False        |         |
+| Panda     | Alex   |    24 |          |        |              | black   |
+| Penguin   | Daisy  |    11 |       50 | A1     |              |         |
+| Penguin   | Ollie  |     0 |          | A2     | False        |         |
+| Penguin   | Rocky  |     0 |       45 | A2     |              |         |
+| Seal      | Jay    |     2 |          | A1     |              |         |
+| Tortoise  | Ollie  |     0 |          | A1     |              | black   |
+| Tortoise  | Ozzy   |    80 |          |        |              |         |
+| Wolf      | Max    |    10 |          |        |              |         |
+| Zebra     | Oscar  |     0 |       92 |        |              |         |
+| Zebra     | Tina   |     0 |          | A1     | False        |         |
++-----------+--------+-------+----------+--------+--------------+---------+
+MySQL connection is closed.
+>python3 s04t07_myzoo_main.py s04t07_myzoo_clear.json
+Connected to MySQL server (version 8.0.24).
+Using database 'zoo'.
+Table animals: 25 rows, 7 columns.
++-----------+--------+-------+----------+--------+--------------+---------+
+| species   | name   |   age |   weight | area   | endangered   | color   |
+|-----------+--------+-------+----------+--------+--------------+---------|
+| Bear      | Angela |     0 |          |        |              |         |
+| Bear      | Luke   |     0 |          |        | False        |         |
+| Bear      | Max    |     0 |          |        |              |         |
+| Bear      | Rocky  |     0 |       20 |        |              |         |
+| Bear      | Walter |     0 |       15 | A2     |              |         |
+| Giraffe   | Jay    |     2 |       90 |        | False        |         |
+| Giraffe   | Lisa   |     5 |          |        |              |         |
+| Giraffe   | Luke   |    12 |          |        |              |         |
+| Gorilla   | Ty     |     6 |          |        |              |         |
+| Horse     | Jack   |     6 |          |        |              |         |
+| Horse     | Jay    |     0 |          | A1     | True         |         |
+| Horse     | Lisa   |     8 |          |        |              |         |
+| Hyena     | Jay    |    10 |          | A2     |              |         |
+| Hyena     | Oscar  |     0 |          |        |              |         |
+| Koala     | Ruby   |     6 |          |        | False        |         |
+| Panda     | Alex   |    24 |          |        |              | black   |
+| Penguin   | Daisy  |    11 |       50 | A1     |              |         |
+| Penguin   | Ollie  |     0 |          | A2     | False        |         |
+| Penguin   | Rocky  |     0 |       45 | A2     |              |         |
+| Seal      | Jay    |     2 |          | A1     |              |         |
+| Tortoise  | Ollie  |     0 |          | A1     |              | black   |
+| Tortoise  | Ozzy   |    80 |          |        |              |         |
+| Wolf      | Max    |    10 |          |        |              |         |
+| Zebra     | Oscar  |     0 |       92 |        |              |         |
+| Zebra     | Tina   |     0 |          | A1     | False        |         |
++-----------+--------+-------+----------+--------+--------------+---------+
+Deleted 1 animal from table animals of zoo.
+Deleted Tortoise Ozzy from table animals of zoo.
+Deleted 3 animals from table animals of zoo.
+Deleted 3 animals from table animals of zoo.
+Deleted 2 animals from table animals of zoo.
+Deleted 2 animals from table animals of zoo.
+Deleted 7 animals from table animals of zoo.
+Deleted 2 animals from table animals of zoo.
+Deleted 1 animal from table animals of zoo.
+Deleted 1 animal from table animals of zoo.
+Deleted 2 animals from table animals of zoo.
+Table animals: 0 rows, 7 columns.
++-----------+--------+-------+----------+--------+--------------+---------+
+| species   | name   | age   | weight   | area   | endangered   | color   |
+|-----------+--------+-------+----------+--------+--------------+---------|
++-----------+--------+-------+----------+--------+--------------+---------+
+Table animals is dropped.
+MySQL connection is closed.
+>

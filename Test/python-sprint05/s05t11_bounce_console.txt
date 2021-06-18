@@ -1,0 +1,34 @@
+>python3 s05t11_bounce_main.py
+Lexa bounces the Red ball (2).
+Lexa bounces the Blue ball (0).
+Bob bounces the Yellow ball (1).
+Lexa bounces the Green ball (2).
+Lexa bounces the Red ball (1).
+Mike bounces the Yellow ball (0).
+Lexa bounces the Green ball (1).
+Bob bounces the Red ball (0).
+Lexa bounces the Green ball (0).
+[Lexa] done_queue is full. Process will stop.
+[Bob] done_queue is full. Process will stop.
+[Mike] done_queue is full. Process will stop.
+---
+Bob bounces the Red ball (2).
+Bob bounces the Blue ball (0).
+Bob bounces the Yellow ball (1).
+Bob bounces the Green ball (2).
+Bob bounces the Red ball (1).
+Bob bounces the Yellow ball (0).
+Bob bounces the Green ball (1).
+Bob bounces the Red ball (0).
+Bob bounces the Green ball (0).
+[Bob] done_queue is full. Process will stop.
+---
+Lexa bounces the Red ball (4).
+Lexa bounces the Red ball (3).
+Bob bounces the Red ball (2).
+Lexa bounces the Red ball (1).
+Lexa bounces the Red ball (0).
+[Mike] done_queue is full. Process will stop.
+[Lexa] done_queue is full. Process will stop.
+[Bob] done_queue is full. Process will stop.
+>
