@@ -1,4 +1,7 @@
 import re
 
+def re_sub_clean(string):
+    return re.sub(r" |\?|!|\.|:|;|,|-","",string)
+
 def clear_words(s):
-    return list(filter(None,list(map(str.strip, re.split(r" |\?|!|\.|:|;|,|-",s)))))
+    return list(map(re_sub_clean, s.split()))

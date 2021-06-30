@@ -35,10 +35,3 @@ def summary(filename,summarize_by):
         return dict(sorted(f_dict.items(), key=lambda x: x[1],reverse=True))
     except:
         return 'Error in decoding JSON.'
-
-
-
-print(summary('s03t05_load_json_test.json', 'visibility'))
-print(summary('s03t05_load_json_test.json', 'purpose'))
-print(summary('s03t05_load_json_test.json', 'no items with this key'))
-print(summary('s03t05_load_json_invalid.json', 'purpose'))

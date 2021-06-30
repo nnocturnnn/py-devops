@@ -1,19 +1,17 @@
 
 
 
-def raise_error(key, msg):
-    keys = ['value','key','index','memory','name','eof']
-
-
-
-
-if __name__ == '__main__':
-    errors = ['value', 'key', 'index', 'memory', 'name', 'eof', 'wrong', '']
-    for error in errors:
-        message = f'This is a `{error}` error.'
-        try:
-            raise_error(error, message)
-        except Exception as e:
-            print(f'call with "{error}", "{message}":'
-                  f'\n\tRaised error: {type(e)}'
-                  f'\n\tMessage: {str(e)}\n')
+def raise_error(key: str, mess: str):
+    if key == 'value':
+        raise ValueError(mess)
+    elif key == 'key':
+        raise KeyError(mess)
+    elif key == 'index':
+        raise IndexError(mess)
+    elif key == 'memory':
+        raise MemoryError(mess)
+    elif key == 'name':
+        raise NameError(mess)
+    elif key == 'eof':
+        raise EOFError(mess)
+    raise ValueError('No error with such key.')
